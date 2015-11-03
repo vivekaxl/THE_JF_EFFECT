@@ -20,7 +20,6 @@ def load_ft_url(url):
     root = tree.getroot()
 
     for child in root:
-        print child
         if child.tag == 'feature_tree':
             feature_tree_text = child.text
         if child.tag == 'constraints':

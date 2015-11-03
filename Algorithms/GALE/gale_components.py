@@ -111,7 +111,7 @@ def galeMutate(problem, NDLeafs, configuration, gen, actual_population):
             # Make a copy of the row in case we reject it
             copy = [item for item in row.cells]
             gen_num_xyz = get_previous_generation_number(actual_population, copy)
-            if len(gen_num_xyz) > 1: print "Generation Number: ", gen_num_xyz
+            print "Generation Number: ", gen_num_xyz
             temp_generation_number = get_previous_generation_number(actual_population, copy)
             cx = row.x
 

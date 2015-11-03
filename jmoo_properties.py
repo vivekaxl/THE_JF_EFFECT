@@ -56,28 +56,28 @@ algorithms = [
 problems =[
     # fonseca(3),
     # srinivas()
-    # POM3B(), #POM3A(), POM3C(), POM3D()
+    # POM3B(), POM3A(), POM3C(), POM3D(),
     dtlz1(9, 5),
-    # dtlz2(14, 5),
-    # dtlz3(14, 5),
-    # dtlz4(14, 5),
-    # dtlz1(7, 3),
-    # dtlz2(12, 3),
-    # dtlz3(12, 3),
-    # dtlz4(12, 3),
-    # dtlz1(12, 8),
-    # dtlz2(17, 8),
-    # dtlz3(17, 8),
-    # dtlz4(17, 8),
-    # dtlz1(14, 10), dtlz2(19, 10),
-    # dtlz3(19, 10),
-    # dtlz4(19, 10),
-    # dtlz1(19, 15),
-    # dtlz2(24, 15),
-    # dtlz3(24, 15),
-    # dtlz4(24, 15)
-    # NRP(50, 5, 5, 20, 120)
-    # FeatureTreeModel("Web_Portal")
+    dtlz2(14, 5),
+    dtlz3(14, 5),
+    dtlz4(14, 5),
+    dtlz1(7, 3),
+    dtlz2(12, 3),
+    dtlz3(12, 3),
+    dtlz4(12, 3),
+    dtlz1(12, 8),
+    dtlz2(17, 8),
+    dtlz3(17, 8),
+    dtlz4(17, 8),
+    dtlz1(14, 10), dtlz2(19, 10),
+    dtlz3(19, 10),
+    dtlz4(19, 10),
+    dtlz1(19, 15),
+    dtlz2(24, 15),
+    dtlz3(24, 15),
+    dtlz4(24, 15),
+    NRP(50, 5, 5, 20, 120),
+    FeatureTreeModel("Web_Portal")
     #MONRP(50, 5, 5, 20, 120)
     # cpm_apache(),cpm_X264(), cpm_SQL_4553(), cpm_SQL_100(), cpm_LLVM(), cpm_BDBJ(), cpm_BDBC()
     # cpm_apache_training_reduction(treatment=None),
@@ -96,8 +96,8 @@ build_new_pop = False                                       # Whether or not to 
 Configurations = {
     "Universal": {
         "Repeats" : 1,
-        "Population_Size" : 92,
-        "No_of_Generations" : 20
+        "Population_Size" : 100,
+        "No_of_Generations" : 100
     },
     "NSGAIII": {
         "SBX_Probability": 1,
