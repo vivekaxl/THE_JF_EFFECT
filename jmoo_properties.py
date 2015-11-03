@@ -45,9 +45,9 @@ from Problems.Feature_Models.feature_model import FeatureTreeModel
 # JMOO Experimental Definitions
 algorithms = [
               jmoo_GALE(),
-              jmoo_NSGAII(),
-              jmoo_SPEA2(),
-              jmoo_DE(),
+              # jmoo_NSGAII(),
+              # jmoo_SPEA2(),
+              # jmoo_DE(),
               # jmoo_MOEAD_TCH(),
               # jmoo_NSGAIII(),
     # jmoo_STORM()
@@ -57,7 +57,7 @@ problems =[
     # fonseca(3),
     # srinivas()
     # POM3B(), #POM3A(), POM3C(), POM3D()
-    # dtlz1(9, 5),
+    dtlz1(9, 5),
     # dtlz2(14, 5),
     # dtlz3(14, 5),
     # dtlz4(14, 5),
@@ -77,7 +77,7 @@ problems =[
     # dtlz3(24, 15),
     # dtlz4(24, 15)
     # NRP(50, 5, 5, 20, 120)
-    FeatureTreeModel("Web_Portal")
+    # FeatureTreeModel("Web_Portal")
     #MONRP(50, 5, 5, 20, 120)
     # cpm_apache(),cpm_X264(), cpm_SQL_4553(), cpm_SQL_100(), cpm_LLVM(), cpm_BDBJ(), cpm_BDBC()
     # cpm_apache_training_reduction(treatment=None),

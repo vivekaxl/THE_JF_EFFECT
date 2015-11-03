@@ -97,7 +97,7 @@ class jmoo_problem(object):
                     problem.objectives[k-MU-1].up += rangeX5
                 
             elif k > 0:
-                population.append(jmoo_individual(problem,[float(p[n]) for n,dec in enumerate(problem.decisions)],None))
+                population.append(jmoo_individual(problem,[float(p[n]) for n,dec in enumerate(problem.decisions)], [0], None))
                 #population[-1].fitness = jmoo_fitness(problem, [float(p[n+len(problem.decisions)]) for n,obj in enumerate(problem.objectives)])
             
         

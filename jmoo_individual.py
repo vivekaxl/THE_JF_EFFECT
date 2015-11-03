@@ -30,10 +30,11 @@
 from jmoo_fitness import *
 
 class jmoo_individual:
-    def __init__(ind, problem, decisionValues, fitness = None):
+    def __init__(ind, problem, decisionValues, generation_number, fitness = None):
         ind.problem = problem
         ind.decisionValues = decisionValues
         ind.fitness = jmoo_fitness(problem, fitness=fitness)
+        ind.generation_number = generation_number
 
     def __str__(ind):
         s = "problem: " + str(ind.problem.name) + "\n"

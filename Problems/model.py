@@ -19,7 +19,7 @@ class Model:
         elif name == 'xomoall':
             self.model = Xomo(model='all')
         else:
-            sys.stderr.write("Enter valid model name pom3 or xomoflight --> xomo[flight/ground/osp/osp2/all]\n")
+            sys.stderr.write("Enter valid model name POM3 or xomoflight --> xomo[flight/ground/osp/osp2/all]\n")
             sys.exit()
     
     def trials(self,N,verbose=False):

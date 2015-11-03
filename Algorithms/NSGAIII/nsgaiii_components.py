@@ -532,7 +532,7 @@ def nsgaiii_recombine2(problem, population, selectees, configuration):
                 individual.evaluate()
                 evaluate_no += 1
     Individuals = jmoo_algorithms.deap_format(problem, population + selectees)
-    assert(len(Individuals) == len(population) + len(selectees)), "Error in changing formal from JMOO to deap"
+    assert(len(Individuals) == len(population) + len(selectees)), "Error in changing formal from JMOO to DEAP"
     pareto_fronts = sortNondominated(Individuals, k)
     from itertools import chain
     assert(len(list(chain(*pareto_fronts))) >= k), \

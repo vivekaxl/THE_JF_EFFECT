@@ -114,7 +114,7 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
     
     while gen < configurations["Universal"]["No_of_Generations"] and stoppingCriteria is False:
         gen+= 1
-        print gen, " | ",
+        print gen, " | "
         import sys
         sys.stdout.flush()
         # # # # # # # # #
@@ -129,7 +129,7 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # #
         # 4b) Adjustment  #
         # # # # # # # # # #
-        selectees, evals = algorithm.adjustor(problem, selectees, configurations)
+        selectees, evals = algorithm.adjustor(problem, selectees, configurations, gen, population)
         numNewEvals += evals
 
 
@@ -138,7 +138,7 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # 4c) Recombination #
         # # # # # # # # # # #
 
-        population, evals = algorithm.recombiner(problem, population, selectees, configurations)
+        population, evals = algorithm.recombiner(problem, population, selectees, configurations, gen)
 
 
         numNewEvals += evals

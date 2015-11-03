@@ -26,6 +26,8 @@
 "Brief notes"
 "Algorithms for evolution"
 
+import os
+print os.getcwd()
 from Algorithms.DEAP import base
 from Algorithms.DEAP import creator
 from Algorithms.DEAP import tools
@@ -350,7 +352,7 @@ def bstop(statBox):
 def deap_format(problem, individuals):
     from Algorithms.DEAP import base, creator
     import array
-    "copy a jmoo-style list of individuals into a deap-style list of individuals"
+    "copy a jmoo-style list of individuals into a DEAP-style list of individuals"
     toolbox = base.Toolbox()
     creator.create("FitnessMin", base.Fitness, weights=[-1.0 if obj.lismore else 1.0 for obj in problem.objectives])
     creator.create("Individual", array.array, typecode='d', fitness=creator.FitnessMin)

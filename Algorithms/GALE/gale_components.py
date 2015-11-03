@@ -24,6 +24,9 @@ from jmoo_individual import *
 def galeWHERE(problem, population, configuration, values_to_be_passed):
     "The Core method behind GALE"
 
+    # for pop in population:
+    #     assert(pop.generation_number == 0), "Generation has to be 0"
+
     # Compile population into table form used by WHERE
     t = slurp([[x for x in row.decisionValues] + ["?" for y in problem.objectives] for row in population],
               problem.buildHeader().split(","))
@@ -51,7 +54,7 @@ def galeWHERE(problem, population, configuration, values_to_be_passed):
     return NDLeafs, numEval
 
 
-def galeMutate(problem, NDLeafs, configuration):
+def galeMutate(problem, NDLeafs, configuration, gen, actual_population):
     #################
     # Mutation Phase
     #################
@@ -107,6 +110,9 @@ def galeMutate(problem, NDLeafs, configuration):
 
             # Make a copy of the row in case we reject it
             copy = [item for item in row.cells]
+            gen_num_xyz = get_previous_generation_number(actual_population, copy)
+            if len(gen_num_xyz) > 1: print "Generation Number: ", gen_num_xyz
+            temp_generation_number = get_previous_generation_number(actual_population, copy)
             cx = row.x
 
             for attr in range(0, len(problem.decisions)):
@@ -134,10 +140,10 @@ def galeMutate(problem, NDLeafs, configuration):
             # confGAMMA = 0.15 #note: make this a property
 
             # print abs(cx-x), (cx + (g * configuration["GALE"]["GAMMA"]))
-            if abs(x - cx) > (g * configuration["GALE"]["GAMMA"]) or problem.evalConstraints(
-                    row.cells[:n]):  # reject it
+            if abs(x - cx) > (g * configuration["GALE"]["GAMMA"]) or problem.evalConstraints(row.cells[:n]):  # reject it
                 row.cells = copy
                 row.x = x
+            row.generation = temp_generation_number + [gen]
 
 
     # After mutation; Convert back to JMOO Data Structures
@@ -145,20 +151,34 @@ def galeMutate(problem, NDLeafs, configuration):
     for leaf in NDLeafs:
         for row in leaf.table.rows:
             if row.evaluated:
-                population.append(jmoo_individual(problem, [x for x in row.cells[:len(problem.decisions)]],
+                population.append(jmoo_individual(problem, [x for x in row.cells[:len(problem.decisions)]], row.generation,
                                                   [x for x in row.cells[len(problem.decisions):]]))
             else:
-                population.append(jmoo_individual(problem, [x for x in row.cells[:len(problem.decisions)]], None))
+                population.append(jmoo_individual(problem, [x for x in row.cells[:len(problem.decisions)]], row.generation, None))
 
                 # Return selectees and number of evaluations
     return population, numEval
 
 
-def galeRegen(problem, unusedslot, mutants, configuration):
+def get_previous_generation_number(population, decisions):
+    for individual in population:
+        survive = True
+        for indi_d, surviving_d in zip(individual.decisionValues, decisions):
+            if indi_d == surviving_d: pass
+            else:
+                survive = False
+                break
+        if survive is True:
+            return individual.generation_number
+    print "Something is wrong in get_previous_generation_number"
+    exit()
+
+
+def galeRegen(problem, unusedslot, mutants, configuration, generation_number):
     howMany = configuration["Universal"]["Population_Size"] - len(mutants)
     # Generate random individuals
     population = []
     for i in range(howMany):
-        population.append(jmoo_individual(problem, problem.generateInput(), None))
+        population.append(jmoo_individual(problem, problem.generateInput(), [generation_number], None))
     
     return mutants+population, 0
