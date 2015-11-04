@@ -213,9 +213,7 @@ multiple solutions.
 
 """
 def where2(m, data, lvl = 0, up = None, verbose = False):
-  # for i in xrange(0, lvl):
-  #     print("|--", end="")
-  # print(len(Data))
+
   node = o(val = None, _up = up, _kids = [])
   def tooDeep(): return lvl > The.what.depthMax  # depthMax is not updated
   def tooFew() :

@@ -142,8 +142,8 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
 
 
         numNewEvals += evals
-        assert(len(population) == configurations["Universal"]["Population_Size"]), \
-            "Length of the population should be equal to MU"
+        # assert(len(population) == configurations["Universal"]["Population_Size"]), \
+        #     "Length of the population should be equal to MU"
         # # # # # # # # # # #
         # 4d) Collect Stats #
         # # # # # # # # # # #

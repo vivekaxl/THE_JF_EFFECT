@@ -46,6 +46,7 @@ from Algorithms.MOEA_D.moead_components import *
 from Algorithms.NSGAIII.nsgaiii_components import *
 from Algorithms.STORM.storm_components import *
 from Algorithms.NSGAIII.nsgaiii_components import *
+from Algorithms.GALE0.gale_components import *
 
 
 from jmoo_individual import *
@@ -93,6 +94,18 @@ class jmoo_GALE:
         self.recombiner = galeRegen
         self.color = color
         self.type = '*'
+
+
+class jmoo_GALE0:
+    def __init__(self, color="Blue"):
+        self.name = "GALE0"
+        self.initializer = None
+        self.selector = gale0WHERE
+        self.adjustor = gale0Mutate
+        self.recombiner = gale0Regen
+        self.color = color
+        self.type = '*'
+
 
 
 class jmoo_DE:

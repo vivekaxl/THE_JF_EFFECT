@@ -60,7 +60,7 @@ def initialPopulation(problem, n, path=""):
     for data in dataset: #each row of actual Data
         fo.write(str(data).strip("[]") + "\n")
     
-    # print "Dataset generated for " + problem.name + " in " + filename + "."
+    print "Dataset generated for " + problem.name + " in " + filename + "."
     
     #preprocessing
     #take first X guys of dataset to get reference point and objective highs and lows

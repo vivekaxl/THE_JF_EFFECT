@@ -84,9 +84,12 @@ class jmoo_stats_box:
         "add a stat box - compute the statistics first"
 
         # Find a file name to write the stats to
-        filename = "Data/results_"+statBox.problem.name + "-p" + str(len(population)) + "-d" + \
+        print "remember to change the filename HACK"
+        filename = "Data/results_"+statBox.problem.name + "-p" + str(100) + "-d" + \
                    str(len(statBox.problem.decisions)) + "-o" + str(len(statBox.problem.objectives))+\
                    "_"+statBox.alg.name+".datatable"
+
+        print filename
         fa = open(filename, 'a')
 
         # Update Number of Evaluations
@@ -94,6 +97,8 @@ class jmoo_stats_box:
 
         # population represents on the individuals which have been evaluated
         shorten_population = [pop for pop in population if pop.fitness.valid]
+
+
         objectives = [individual.fitness.fitness for individual in shorten_population]
         # Split Columns into Lists
         objective_columns = [[objective[i] for objective in objectives] for i, obj in enumerate(statBox.problem.objectives)]
@@ -101,7 +106,7 @@ class jmoo_stats_box:
         objective_medians = [median(fitCol) for fitCol in objective_columns]
         # Calculate IQR of objective scores
         objective_iqr = [spread(fitCol) for fitCol in objective_columns]
-        
+
         # Initialize Reference Point on Initial Run
         if initial is True: statBox.referencePoint = [o.med for o in statBox.problem.objectives]
 
@@ -111,7 +116,7 @@ class jmoo_stats_box:
 
         lossInQualities = [{"qual": loss_in_quality(statBox.problem, [statBox.referencePoint], fit, norms), "index": i} for i,fit in enumerate(objectives)]
         lossInQualities.sort(key=lambda(r): r["qual"])
-        if len(objectives) > 0: 
+        if len(objectives) > 0:
             best_fitness = objectives[lossInQualities[0]["index"]]
         else:
             best_fitness = objective_medians

@@ -2,29 +2,29 @@
 /Users/viveknair/GIT/THE_JF_EFFECT
 ./Problems/Feature_Models/References/Web_Portal.xml
 True
-#<------- DTLZ1_9_5 + GALE ------->#
-1  | 
+[#<------- DTLZ1_9_5 + GALE ------->#
+1  |
 Generation Number:  [0]
 Generation Number:  [0]
 Generation Number:  [0]
 Generation Number:  [0]
 Generation Number:  [0]
 Generation Number:  [0]
-2  | 
+2  |
 Generation Number:  [1]
 Generation Number:  [1]
 Generation Number:  [1]
 Generation Number:  [0, 1]
 Generation Number:  [1]
 Generation Number:  [1]
-3  | 
+3  |
 Generation Number:  [2]
 Generation Number:  [2]
 Generation Number:  [2]
 Generation Number:  [2]
 Generation Number:  [2]
 Generation Number:  [2]
-4  | 
+4  |
 Generation Number:  [3]
 Generation Number:  [3]
 Generation Number:  [3]
@@ -32,14 +32,14 @@ Generation Number:  [3]
 Generation Number:  [3]
 Generation Number:  [3]
 Generation Number:  [3]
-5  | 
+5  |
 Generation Number:  [4]
 Generation Number:  [4]
 Generation Number:  [3, 4]
 Generation Number:  [4]
 Generation Number:  [4]
 Generation Number:  [4]
-6  | 
+6  |
 Generation Number:  [5]
 Generation Number:  [5]
 Generation Number:  [5]
@@ -49,28 +49,28 @@ Generation Number:  [5]
 Generation Number:  [5]
 Generation Number:  [5]
 Generation Number:  [5]
-7  | 
+7  |
 Generation Number:  [6]
 Generation Number:  [6]
 Generation Number:  [6]
 Generation Number:  [6]
 Generation Number:  [6]
 Generation Number:  [6]
-8  | 
+8  |
 Generation Number:  [7]
 Generation Number:  [7]
 Generation Number:  [7]
 Generation Number:  [7]
 Generation Number:  [7]
 Generation Number:  [7]
-9  | 
+9  |
 Generation Number:  [8]
 Generation Number:  [8]
 Generation Number:  [7, 8]
 Generation Number:  [8]
 Generation Number:  [8]
 Generation Number:  [8]
-10  | 
+10  |
 Generation Number:  [9]
 Generation Number:  [9]
 Generation Number:  [9]
@@ -79,7 +79,7 @@ Generation Number:  [9]
 Generation Number:  [9]
 Generation Number:  [9]
 Generation Number:  [9]
-Generation Number:  [9]
+Generation Number:  9]
 11  | 
 Generation Number:  [10]
 Generation Number:  [10]

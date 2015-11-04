@@ -111,6 +111,10 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
                         min_point.append([gn, ov])
                         temp_min = ov
 
+                print alg.name
+                print generation_numbers
+                print objective_values
+
                 ax1.scatter(generation_numbers,objective_values, marker=alg.type, color=alg.color)
                 ax1.plot([item[0] for item in min_point], [item[-1] for item in min_point], marker=alg.type, color=alg.color)
 
