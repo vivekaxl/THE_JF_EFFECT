@@ -195,8 +195,7 @@ def pareto_frontier_multi(myArray):
     return pareto_frontier
 
 def normalize(x, min, max):
-    tmp = float((x - min)) / \
-          (max - min + 0.000001)
+    tmp = float((x - min)) / (max - min + 0.000001)
     if   tmp > 1 : return 1
     elif tmp < 0 : return 0
     else         : return tmp

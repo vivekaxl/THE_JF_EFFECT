@@ -98,7 +98,6 @@ class jmoo_stats_box:
         # population represents on the individuals which have been evaluated
         shorten_population = [pop for pop in population if pop.fitness.valid]
 
-
         objectives = [individual.fitness.fitness for individual in shorten_population]
         # Split Columns into Lists
         objective_columns = [[objective[i] for objective in objectives] for i, obj in enumerate(statBox.problem.objectives)]
@@ -115,6 +114,7 @@ class jmoo_stats_box:
         norms = [[min(objective_columns[i]+[statBox.referencePoint[i]]), max(objective_columns[i]+[statBox.referencePoint[i]])] for i,obj in enumerate(statBox.problem.objectives)]
 
         lossInQualities = [{"qual": loss_in_quality(statBox.problem, [statBox.referencePoint], fit, norms), "index": i} for i,fit in enumerate(objectives)]
+
         lossInQualities.sort(key=lambda(r): r["qual"])
         if len(objectives) > 0:
             best_fitness = objectives[lossInQualities[0]["index"]]
@@ -228,7 +228,6 @@ def loss_in_quality(problem, pop, fit1, norms):
     "Loss in Quality Indicator"
     weights = [-1 if o.lismore else +1 for o in problem.objectives]    
     k = len(weights)
-    
     # Calculate the loss in quality of removing fit1 from the population
     F = []
     for X2 in pop:

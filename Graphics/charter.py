@@ -111,16 +111,16 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
                         min_point.append([gn, ov])
                         temp_min = ov
 
-                print alg.name
-                print generation_numbers
-                print objective_values
+                # print alg.name
+                # print generation_numbers
+                # print objective_values
 
                 ax1.scatter(generation_numbers,objective_values, marker=alg.type, color=alg.color)
                 ax1.plot([item[0] for item in min_point], [item[-1] for item in min_point], marker=alg.type, color=alg.color)
 
             ax1.set_ylim(min(all_objective_values) * 0.99, max(all_objective_values) * 1.1)
             ax1.set_xlim(min(all_generation_numbers), max(all_generation_numbers) * 1.1)
-            ax1.set_ylabel("% change\nmedian values")
+            ax1.set_ylabel("% change\nbest values")
             ax1.text(right, 0.5*(bottom+top), prob.objectives[v].name,
                     horizontalalignment='center',
                     verticalalignment='center',

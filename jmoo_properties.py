@@ -97,8 +97,8 @@ build_new_pop = False                                       # Whether or not to 
 Configurations = {
     "Universal": {
         "Repeats" : 1,
-        "Population_Size" : 1000,
-        "No_of_Generations" : 1
+        "Population_Size" : 100,
+        "No_of_Generations" : 20
     },
     "NSGAIII": {
         "SBX_Probability": 1,

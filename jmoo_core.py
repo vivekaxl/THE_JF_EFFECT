@@ -166,7 +166,8 @@ class JMOO:
                 backend = problem.name + "_" + algorithm.name + ".txt"
                 
                 # Decision Data
-                filename = problem.name + "-p" + str(self.configurations["Universal"]["Population_Size"]) + "-d" + str(len(problem.decisions)) + "-o" + str(len(problem.objectives))+"_"+algorithm.name+DATA_SUFFIX
+                # filename = problem.name + "-p" + str(self.configurations["Universal"]["Population_Size"]) + "-d" + str(len(problem.decisions)) + "-o" + str(len(problem.objectives))+"_"+algorithm.name+DATA_SUFFIX
+                filename = problem.name + "-p" + str(100) + "-d" + str(len(problem.decisions)) + "-o" + str(len(problem.objectives))+"_"+algorithm.name+DATA_SUFFIX
                 dbt = open(DATA_PREFIX + DECISION_BIN_TABLE + "_" + filename, 'w')
                 sr = open(DATA_PREFIX + SUMMARY_RESULTS + filename, 'w')
                 rrs = open(DATA_PREFIX + RRS_TABLE + "_" + filename, 'w')
