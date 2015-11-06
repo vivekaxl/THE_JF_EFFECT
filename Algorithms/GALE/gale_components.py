@@ -128,7 +128,7 @@ def galeMutate(problem, NDLeafs, configuration, gen, actual_population):
                 if me < good:  d = +1
                 if me == good: d = 0
 
-                row.cells[attr] = min(dec.up, max(dec.low, me + me * g * d))
+                row.cells[attr] = min(dec.up, max(dec.low, (me + me * g * d) * configuration["GALE"]["DELTA"]))
 
             # Project the Mutant
             a = row.distance(NorthPole)

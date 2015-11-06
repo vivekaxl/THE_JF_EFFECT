@@ -106,19 +106,43 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
                 # To generate the minimum line for each algorithm
                 min_point = []
                 temp_min = 1e32
+
+                scores = {}
+
                 for gn, ov in zip(generation_numbers, objective_values):
-                    if ov <= temp_min:
-                        min_point.append([gn, ov])
-                        temp_min = ov
+                    eval = int(round(gn/5.0)*5.0)
+                    if eval in scores: scores[eval].append(ov)
+                    else: scores[eval] = [ov]
 
-                # print alg.name
-                # print generation_numbers
-                # print objective_values
 
-                ax1.scatter(generation_numbers,objective_values, marker=alg.type, color=alg.color)
-                ax1.plot([item[0] for item in min_point], [item[-1] for item in min_point], marker=alg.type, color=alg.color)
+                key_list = [1]
+                score_list = [100]
+                smallslist = [100]
+                for eval in sorted(scores.keys()):
+                    lq = getPercentile(scores[eval], 25)
+                    uq = getPercentile(scores[eval], 75)
+                    scores[eval] = [score for score in scores[eval] if lq <= score <= uq]
+                    # import pdb
+                    # pdb.set_trace()
+                    for item in scores[eval]:
+                        key_list.append(eval)
+                        score_list.append(item)
+                        if len(smallslist) == 0:
+                            smallslist.append(min(scores[eval]))
+                        else:
+                            smallslist.append(    min(min(scores[eval]), min(smallslist))  )
 
-            ax1.set_ylim(min(all_objective_values) * 0.99, max(all_objective_values) * 1.1)
+                # print alg.name, v
+                # print key_list
+                # print score_list
+                # print smallslist
+                # print " = " * 30
+
+                ax1.scatter(key_list, score_list, marker=alg.type, color=alg.color)
+                # ax1.plot(key_list, smallslist, marker=alg.type, color=alg.color)
+                # ax1.plot([item[0] for item in min_point], [item[-1] for item in min_point], marker=alg.type, color=alg.color)
+
+            ax1.set_ylim(min(all_objective_values) * 0.9, max(all_objective_values) * 1.1)
             ax1.set_xlim(min(all_generation_numbers), max(all_generation_numbers) * 1.1)
             ax1.set_ylabel("% change\nbest values")
             ax1.text(right, 0.5*(bottom+top), prob.objectives[v].name,
@@ -140,7 +164,7 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
         plt.tight_layout()
 
         # to save the figure as .png file
-        plt.savefig('Charts/' + date_folder_prefix + '/figure' + str("%02d" % figure_number) + "_" + prob.name + "_" + tag + '.png', dpi=100)
+        plt.savefig('Charts/' + date_folder_prefix + '/figure' + str("%02d" % figure_number) + "_" + prob.name + "_" + tag + '.png', dpi=150)
         cla()
         clf()
         close()

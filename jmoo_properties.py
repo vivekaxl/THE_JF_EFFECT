@@ -96,9 +96,9 @@ build_new_pop = False                                       # Whether or not to 
 
 Configurations = {
     "Universal": {
-        "Repeats" : 1,
+        "Repeats" : 5,
         "Population_Size" : 100,
-        "No_of_Generations" : 20
+        "No_of_Generations" : 1
     },
     "NSGAIII": {
         "SBX_Probability": 1,
@@ -108,7 +108,8 @@ Configurations = {
     "GALE": {
         "GAMMA" : 0.15,  #Constrained Mutation Parameter
         "EPSILON" : 1.00,  #Continuous Domination Parameter
-        "LAMBDA" :  3     #Number of lives for bstop
+        "LAMBDA" :  3,     #Number of lives for bstop
+        "DELTA"  : 1       # Accelerator that increases mutation size
     },
     "DE": {
         "F" : 0.75, # extrapolate amount
