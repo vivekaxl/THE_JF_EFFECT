@@ -44,10 +44,10 @@ from Problems.Feature_Models.feature_model import FeatureTreeModel
 
 # JMOO Experimental Definitions
 algorithms = [
-              jmoo_GALE0(),
+              # jmoo_GALE0(),
               jmoo_GALE(),
-              # jmoo_NSGAII(),
-              # jmoo_SPEA2(),
+              jmoo_NSGAII(),
+              jmoo_SPEA2(),
               # jmoo_DE(),
               # jmoo_MOEAD_TCH(),
               # jmoo_NSGAIII(),
@@ -58,25 +58,29 @@ problems =[
     # fonseca(3),
     # srinivas()
     # POM3B(), POM3A(), POM3C(), POM3D(),
-    dtlz1(9, 5),
-    dtlz2(14, 5),
-    dtlz3(14, 5),
-    dtlz4(14, 5),
-    dtlz1(7, 3),
-    dtlz2(12, 3),
-    dtlz3(12, 3),
-    dtlz4(12, 3),
-    dtlz1(12, 8),
-    dtlz2(17, 8),
-    dtlz3(17, 8),
-    dtlz4(17, 8),
-    dtlz1(14, 10), dtlz2(19, 10),
-    dtlz3(19, 10),
-    dtlz4(19, 10),
-    dtlz1(19, 15),
-    dtlz2(24, 15),
-    dtlz3(24, 15),
-    dtlz4(24, 15),
+    dtlz1(20, 2),
+    dtlz1(20, 4),
+    dtlz1(20, 6),
+    dtlz1(20, 8),
+    # dtlz1(9, 5),
+    # dtlz2(14, 5),
+    # dtlz3(14, 5),
+    # dtlz4(14, 5),
+    # dtlz1(7, 3),
+    # dtlz2(12, 3),
+    # dtlz3(12, 3),
+    # dtlz4(12, 3),
+    # dtlz1(12, 8),
+    # dtlz2(17, 8),
+    # dtlz3(17, 8),
+    # dtlz4(17, 8),
+    # dtlz1(14, 10), dtlz2(19, 10),
+    # dtlz3(19, 10),
+    # dtlz4(19, 10),
+    # dtlz1(19, 15),
+    # dtlz2(24, 15),
+    # dtlz3(24, 15),
+    # dtlz4(24, 15),
     # NRP(50, 5, 5, 20, 120),
     # FeatureTreeModel("Web_Portal")
     #MONRP(50, 5, 5, 20, 120)
@@ -96,9 +100,9 @@ build_new_pop = False                                       # Whether or not to 
 
 Configurations = {
     "Universal": {
-        "Repeats" : 5,
+        "Repeats" : 20,
         "Population_Size" : 100,
-        "No_of_Generations" : 1
+        "No_of_Generations" : 20
     },
     "NSGAIII": {
         "SBX_Probability": 1,

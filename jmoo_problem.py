@@ -90,11 +90,11 @@ class jmoo_problem(object):
                 if problem.objectives[k-MU-1].up == None:
                     problem.objectives[k-MU-1].up = float(p[2])
                     upnotfound = True
-                rangeX5 = (problem.objectives[k-MU-1].up - problem.objectives[k-MU-1].low)*5
-                if lownotfound:
-                    problem.objectives[k-MU-1].low -= rangeX5
-                if upnotfound:
-                    problem.objectives[k-MU-1].up += rangeX5
+                # rangeX5 = (problem.objectives[k-MU-1].up - problem.objectives[k-MU-1].low)*5
+                # if lownotfound:
+                #     problem.objectives[k-MU-1].low -= rangeX5
+                # if upnotfound:
+                #     problem.objectives[k-MU-1].up += rangeX5
                 
             elif k > 0:
                 population.append(jmoo_individual(problem,[float(p[n]) for n,dec in enumerate(problem.decisions)], [0], None))

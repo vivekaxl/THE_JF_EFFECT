@@ -250,7 +250,7 @@ def selTournamentDCD(problem, individuals, configuration, value_to_be_passed):
 #############################################################
 
 
-def crossoverAndMutation(problem, individuals, configuration):
+def crossoverAndMutation(problem, individuals, configuration, gen,  actual_population):
 
     # Format a population data structure usable by DEAP's package
     dIndividuals = deap_format(problem, individuals)
@@ -288,7 +288,7 @@ def variator(problem, selectees):
 #############################################################
 
 
-def selSPEA2(problem, population, selectees, configurations):
+def selSPEA2(problem, population, selectees, configurations, gen):
     k = configurations["Universal"]["Population_Size"]
     # Evaluate any new guys
     for individual in population + selectees:
@@ -313,7 +313,7 @@ def selSPEA2(problem, population, selectees, configurations):
     return population, k
 
 
-def selNSGA2(problem, population, selectees, configurations):
+def selNSGA2(problem, population, selectees, configurations, gen):
     k = configurations["Universal"]["Population_Size"]
     # Evaluate any new guys
     for individual in population + selectees:

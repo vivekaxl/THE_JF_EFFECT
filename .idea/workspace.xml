@@ -2,224 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157ddce6-3624-4fa3-b5ba-ca61d8192a16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_12_8-p100-d12-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_12_8-p1000-d12-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_14_10-p100-d14-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_14_10-p1000-d14-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_19_15-p100-d19-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_19_15-p1000-d19-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_20_2-p100-d20-o2-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_7_3-p100-d7-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_7_3-p1000-d7-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_9_5-p1000-d9-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_12_3-p100-d12-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_12_3-p1000-d12-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_14_5-p100-d14-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_14_5-p1000-d14-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_17_8-p100-d17-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_17_8-p1000-d17-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_19_10-p100-d19-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_19_10-p1000-d19-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_24_15-p100-d24-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ2_24_15-p1000-d24-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_12_3-p100-d12-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_12_3-p1000-d12-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_14_5-p100-d14-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_14_5-p1000-d14-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_17_8-p100-d17-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_17_8-p1000-d17-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_19_10-p100-d19-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_19_10-p1000-d19-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_24_15-p100-d24-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ3_24_15-p1000-d24-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_12_3-p100-d12-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_12_3-p1000-d12-o3-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_14_5-p100-d14-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_14_5-p1000-d14-o5-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_17_8-p100-d17-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_17_8-p1000-d17-o8-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_19_10-p100-d19-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_19_10-p1000-d19-o10-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_24_15-p100-d24-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ4_24_15-p1000-d24-o15-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/NRP_50_5_5_20_120-p100-d50-o1-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/NRP_50_5_5_20_120-p1000-d50-o1-dataset.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_12_8-p100-d12-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_12_8-p100-d12-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_14_10-p100-d14-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p100-d9-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ2_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ3_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ4_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__NRP_50_5_5_20_120-p100-d50-o1_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__NRP_50_5_5_20_120-p100-d50-o1_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_12_8-p100-d12-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_12_8-p100-d12-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_14_10-p100-d14-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ3_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_NRP_50_5_5_20_120-p100-d50-o1_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_NRP_50_5_5_20_120-p100-d50-o1_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_12_8-p100-d12-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_12_8-p100-d12-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_14_10-p100-d14-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ3_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ4_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_NRP_50_5_5_20_120-p100-d50-o1_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_NRP_50_5_5_20_120-p100-d50-o1_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_12_8-p100-d12-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_12_8-p100-d12-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_14_10-p100-d14-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ3_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_12_3-p100-d12-o3_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_12_3-p100-d12-o3_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_14_5-p100-d14-o5_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_14_5-p100-d14-o5_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_17_8-p100-d17-o8_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_17_8-p100-d17-o8_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_19_10-p100-d19-o10_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_19_10-p100-d19-o10_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_24_15-p100-d24-o15_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_NRP_50_5_5_20_120-p100-d50-o1_GALE.datatable" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_NRP_50_5_5_20_120-p100-d50-o1_GALE0.datatable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure01_DTLZ1_9_5_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ2_14_5_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure04_DTLZ3_14_5_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure05_DTLZ4_14_5_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure06_DTLZ1_7_3_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure07_DTLZ2_12_3_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure08_DTLZ3_12_3_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure09_DTLZ4_12_3_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure10_DTLZ1_12_8_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure11_DTLZ2_17_8_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure12_DTLZ3_17_8_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure13_DTLZ4_17_8_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure14_DTLZ1_14_10_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure15_DTLZ2_19_10_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure16_DTLZ3_19_10_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure17_DTLZ4_19_10_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure18_DTLZ1_19_15_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure19_DTLZ2_24_15_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure20_DTLZ3_24_15_.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure21_DTLZ4_24_15_.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ2_14_5-p100-d14-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ2_14_5-p100-d14-o5-dataset.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p100-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_.datatable" afterPath="$PROJECT_DIR$/Data/summary_.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE.datatable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p100-d14-o5_GALE.datatable" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/charter.py" afterPath="$PROJECT_DIR$/Graphics/charter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_algorithms.py" afterPath="$PROJECT_DIR$/jmoo_algorithms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_problem.py" afterPath="$PROJECT_DIR$/jmoo_problem.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
     </list>
     <ignored path="THE_JF_EFFECT.iws" />
@@ -242,11 +57,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
+      <file leaf-file-name="jmoo_properties.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5789474">
-              <caret line="56" column="14" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure02_DTLZ1_20_2_.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ1_20_2_.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure03_DTLZ1_20_4_.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure03_DTLZ1_20_4_.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure04_DTLZ1_20_6_.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure04_DTLZ1_20_6_.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="figure05_DTLZ1_20_8_.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure05_DTLZ1_20_8_.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jmoo_problem.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jmoo_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results_DTLZ2_14_5-p100-d14-o5_NSGAII.datatable" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_NSGAII.datatable">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="130" selection-start-line="0" selection-start-column="130" selection-end-line="0" selection-end-column="170" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DTLZ2_14_5-p1000-d14-o5-dataset.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/DTLZ2_14_5-p1000-d14-o5-dataset.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1001" column="32" selection-start-line="1001" selection-start-column="18" selection-end-line="1001" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -255,9 +128,11 @@
       <file leaf-file-name="charter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="-11.0">
+              <caret line="316" column="122" selection-start-line="316" selection-start-column="122" selection-end-line="316" selection-end-column="122" />
+              <folding>
+                <element signature="e#1086#1104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -272,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/Problems/model.py" />
         <option value="$PROJECT_DIR$/jmoo_individual.py" />
-        <option value="$PROJECT_DIR$/jmoo_problem.py" />
         <option value="$PROJECT_DIR$/Problems/Feature_Models/feature_model.py" />
         <option value="$PROJECT_DIR$/jfresult.txt" />
         <option value="$PROJECT_DIR$/Problems/CPM/utilities/RahulTool/_imports/where2.py" />
@@ -280,14 +154,15 @@
         <option value="$PROJECT_DIR$/jmoo_problems.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE0/Fastmap/Moo.py" />
         <option value="$PROJECT_DIR$/jmoo_jmoea.py" />
-        <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE0/gale_components.py" />
         <option value="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p1000-d9-o5_GALE0.datatable" />
         <option value="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE0.datatable" />
         <option value="$PROJECT_DIR$/jmoo_core.py" />
         <option value="$PROJECT_DIR$/utility.py" />
-        <option value="$PROJECT_DIR$/jmoo_stats_box.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" />
+        <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
+        <option value="$PROJECT_DIR$/jmoo_problem.py" />
+        <option value="$PROJECT_DIR$/jmoo_stats_box.py" />
         <option value="$PROJECT_DIR$/jmoo_properties.py" />
         <option value="$PROJECT_DIR$/Graphics/charter.py" />
       </list>
@@ -375,6 +250,10 @@
               <option name="myItemId" value="Charts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="11-06-2015" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -386,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
+              <option name="myItemId" value="Charts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,7 +499,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29501525" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2909461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -652,44 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/utilities/RahulTool/_imports/libWhere.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE0/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/utilities/RahulTool/makeAmodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/tera/WHERE/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/CPM/utilities/RahulTool/_imports/settingsWhere.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="72" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Problems/tera/WHERE/where2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -718,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/GALE0/Fastmap/The.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -746,41 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6666667">
-          <caret line="169" column="56" selection-start-line="169" selection-start-column="56" selection-end-line="169" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_stats_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -853,41 +656,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_problems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.62963">
-          <caret line="933" column="3" selection-start-line="667" selection-start-column="0" selection-end-line="933" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Charts/11-05-2015/figure03_DTLZ2_14_5_.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
+    <entry file="file://$PROJECT_DIR$/jmoo_algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <caret line="290" column="64" selection-start-line="290" selection-start-column="64" selection-end-line="290" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
+    <entry file="file://$PROJECT_DIR$/Data/decision_bin_table_DTLZ4_24_15-p100-d24-o15_GALE0.datatable">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/decision_bin_table_NRP_50_5_5_20_120-p100-d50-o1_GALE.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5789474">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="70" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="70" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ1_20_2-p100-d20-o2_SPEA2.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_NSGAII.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ1_20_6-p100-d20-o6_GALE.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ1_20_2-p100-d20-o2_NSGAII.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ1_20_2-p100-d20-o2_GALE.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DTLZ1_20_8-p100-d20-o8-dataset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DTLZ1_20_2-p100-d20-o2-dataset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.88889">
+          <caret line="199" column="36" selection-start-line="199" selection-start-column="36" selection-end-line="199" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_objective.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="127" selection-start-line="21" selection-start-column="127" selection-end-line="21" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_NSGAII.datatable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="130" selection-start-line="0" selection-start-column="130" selection-end-line="0" selection-end-column="170" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DTLZ2_14_5-p1000-d14-o5-dataset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1001" column="32" selection-start-line="1001" selection-start-column="18" selection-end-line="1001" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_problems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="675" column="37" selection-start-line="675" selection-start-column="37" selection-end-line="675" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5112108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_stats_box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="178" column="24" selection-start-line="178" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.0">
+          <caret line="316" column="122" selection-start-line="316" selection-start-column="122" selection-end-line="316" selection-end-column="122" />
+          <folding>
+            <element signature="e#1086#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ1_20_2_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure03_DTLZ1_20_4_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure04_DTLZ1_20_6_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure05_DTLZ1_20_8_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
