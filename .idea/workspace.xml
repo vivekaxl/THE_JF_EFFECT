@@ -8,6 +8,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_14_10-p1000-d14-o10-dataset.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_19_15-p100-d19-o15-dataset.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_19_15-p1000-d19-o15-dataset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_20_2-p100-d20-o2-dataset.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_7_3-p100-d7-o3-dataset.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_7_3-p1000-d7-o3-dataset.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt" afterPath="" />
@@ -50,6 +51,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RRS_TABLE__DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
@@ -92,6 +94,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
@@ -134,6 +137,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
@@ -177,6 +181,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_14_10-p100-d14-o10_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_19_15-p100-d19-o15_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_19_15-p100-d19-o15_GALE0.datatable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_20_2-p100-d20-o2_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_7_3-p100-d7-o3_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_7_3-p100-d7-o3_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="" />
@@ -213,10 +218,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_DTLZ4_24_15-p100-d24-o15_GALE0.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_NRP_50_5_5_20_120-p100-d50-o1_GALE.datatable" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/summary_NRP_50_5_5_20_120-p100-d50-o1_GALE0.datatable" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/THE_JF_EFFECT.iml" afterPath="$PROJECT_DIR$/.idea/THE_JF_EFFECT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" afterPath="$PROJECT_DIR$/Algorithms/GALE/gale_components.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/charter.py" afterPath="$PROJECT_DIR$/Graphics/charter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
     </list>
@@ -240,31 +242,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gale_components.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="77" selection-start-line="125" selection-start-column="77" selection-end-line="125" selection-end-column="77" />
+            <state vertical-scroll-proportion="-1.5789474">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jmoo_properties.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="79" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="charter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.075187966">
-              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -395,24 +387,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GALE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -887,42 +861,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ4_14_5-p100-d14-o5_GALE.datatable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/results_DTLZ4_14_5-p100-d14-o5_GALE0.datatable">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="77" selection-start-line="125" selection-start-column="77" selection-end-line="125" selection-end-column="77" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Charts/11-05-2015/figure03_DTLZ2_14_5_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="79" selection-end-column="27" />
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphics/charter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.075187966">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="21" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/GALE/gale_components.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5789474">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -139,7 +139,7 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
                 # print " = " * 30
 
                 ax1.scatter(key_list, score_list, marker=alg.type, color=alg.color)
-                # ax1.plot(key_list, smallslist, marker=alg.type, color=alg.color)
+                ax1.plot(key_list, smallslist, marker=alg.type, color=alg.color)
                 # ax1.plot([item[0] for item in min_point], [item[-1] for item in min_point], marker=alg.type, color=alg.color)
 
             ax1.set_ylim(min(all_objective_values) * 0.9, max(all_objective_values) * 1.1)

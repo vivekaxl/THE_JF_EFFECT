@@ -77,7 +77,7 @@ problems =[
     dtlz2(24, 15),
     dtlz3(24, 15),
     dtlz4(24, 15),
-    NRP(50, 5, 5, 20, 120),
+    # NRP(50, 5, 5, 20, 120),
     # FeatureTreeModel("Web_Portal")
     #MONRP(50, 5, 5, 20, 120)
     # cpm_apache(),cpm_X264(), cpm_SQL_4553(), cpm_SQL_100(), cpm_LLVM(), cpm_BDBJ(), cpm_BDBC()
@@ -109,7 +109,7 @@ Configurations = {
         "GAMMA" : 0.15,  #Constrained Mutation Parameter
         "EPSILON" : 1.00,  #Continuous Domination Parameter
         "LAMBDA" :  3,     #Number of lives for bstop
-        "DELTA"  : 1       # Accelerator that increases mutation size
+        "DELTA"  : 3       # Accelerator that increases mutation size
     },
     "DE": {
         "F" : 0.75, # extrapolate amount
