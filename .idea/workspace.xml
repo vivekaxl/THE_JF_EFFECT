@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157ddce6-3624-4fa3-b5ba-ca61d8192a16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure01_DTLZ1_9_5_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ2_14_5_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure04_DTLZ3_14_5_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure05_DTLZ4_14_5_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure06_DTLZ1_7_3_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure07_DTLZ2_12_3_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure08_DTLZ3_12_3_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure09_DTLZ4_12_3_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure10_DTLZ1_12_8_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure11_DTLZ2_17_8_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure12_DTLZ3_17_8_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure13_DTLZ4_17_8_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure14_DTLZ1_14_10_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure15_DTLZ2_19_10_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure16_DTLZ3_19_10_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure17_DTLZ4_19_10_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure18_DTLZ1_19_15_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure19_DTLZ2_24_15_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure20_DTLZ3_24_15_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Charts/11-06-2015/figure21_DTLZ4_24_15_.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ1_9_5-p100-d9-o5-dataset.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/DTLZ2_14_5-p100-d14-o5-dataset.txt" afterPath="$PROJECT_DIR$/Data/DTLZ2_14_5-p100-d14-o5-dataset.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ1_9_5-p100-d9-o5_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/decision_bin_table_DTLZ2_14_5-p100-d14-o5_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ1_9_5-p100-d9-o5_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/results_DTLZ2_14_5-p100-d14-o5_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_.datatable" afterPath="$PROJECT_DIR$/Data/summary_.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ1_9_5-p100-d9-o5_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p100-d14-o5_GALE.datatable" afterPath="$PROJECT_DIR$/Data/summary_DTLZ2_14_5-p100-d14-o5_GALE.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graphics/charter.py" afterPath="$PROJECT_DIR$/Graphics/charter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_algorithms.py" afterPath="$PROJECT_DIR$/jmoo_algorithms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_problem.py" afterPath="$PROJECT_DIR$/jmoo_problem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
     </list>
     <ignored path="THE_JF_EFFECT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="figure02_DTLZ1_20_2_.png" pinned="false" current-in-tab="false">
+      <file leaf-file-name="figure02_DTLZ1_20_2_.png" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ1_20_2_.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -88,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="figure05_DTLZ1_20_8_.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="figure05_DTLZ1_20_8_.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure05_DTLZ1_20_8_.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -220,52 +187,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11-06-2015" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Charts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,9 +411,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21565495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21565495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -855,11 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ1_20_2_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure03_DTLZ1_20_4_.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -871,6 +787,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure05_DTLZ1_20_8_.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Charts/11-06-2015/figure02_DTLZ1_20_2_.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
