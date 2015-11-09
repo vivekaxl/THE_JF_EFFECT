@@ -230,8 +230,6 @@ def selTournamentDCD(problem, individuals, configuration, value_to_be_passed):
 
     # Format a population data structure usable by DEAP's package
     dIndividuals = deap_format(problem, individuals)
-    # import pdb
-    # pdb.set_trace()
 
     # Assign crowding distance
     from Algorithms.DEAP.tools.emo import assignCrowdingDist
@@ -239,7 +237,7 @@ def selTournamentDCD(problem, individuals, configuration, value_to_be_passed):
 
     # Select elites
     from Algorithms.DEAP.tools.emo import selTournamentDCD
-    selectees = selTournamentDCD(dIndividuals, len(individuals), configuration, value_to_be_passed)
+    selectees = selTournamentDCD(dIndividuals, len(individuals))
 
     # Update beginning population data structure
     selectedIndices = [i for i,sel in enumerate(selectees)]
@@ -308,7 +306,7 @@ def selSPEA2(problem, population, selectees, configurations, gen):
         cells = []
         for j in range(len(dIndividual)):
             cells.append(dIndividual[j])
-        population.append(jmoo_individual(problem, cells, dIndividual.fitness.values))
+        population.append(jmoo_individual(problem, cells, gen, dIndividual.fitness.values))
 
     return population, k
 
@@ -333,7 +331,8 @@ def selNSGA2(problem, population, selectees, configurations, gen):
         cells = []
         for j in range(len(dIndividual)):
             cells.append(dIndividual[j])
-        population.append(jmoo_individual(problem, cells, dIndividual.fitness.values))
+        population.append(jmoo_individual(problem, cells, gen, dIndividual.fitness.values))
+
 
     return population, k
 

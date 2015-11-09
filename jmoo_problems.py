@@ -674,7 +674,8 @@ class dtlz1(jmoo_problem):
         ups =   [1.0 for i in range(numDecs)]
         prob.decisions = [jmoo_decision(names[i], lows[i], ups[i]) for i in range(numDecs)]
         prob.objectives = [jmoo_objective("f" + str(i+1), True) for i in range(numObjs)]
-    def evaluate(prob,input = None):
+
+    def evaluate(prob, input = None):
         if input:
             for i,decision in enumerate(prob.decisions):
                 decision.value = input[i]
@@ -684,26 +685,25 @@ class dtlz1(jmoo_problem):
 
         k = len(prob.decisions) - len(prob.objectives) + 1
         g = 0.0
-        
+
         x = []
         for i in range(0, len(prob.decisions)):
             x.append(prob.decisions[i].value)
 
         for i in range(len(prob.decisions) - k, len(prob.decisions)):
             g += (x[i] - 0.5)**2 - cos(20.0 * pi * (x[i] - 0.5))
-        
+
         g = 100 * (k + g)
-        
+
         f = []
         for i in range(0, len(prob.objectives)): f.append((1.0 + g)*0.5)
-        
+
         for i in xrange(len(prob.objectives)):
             for j in range(0, len(prob.objectives) - (i+1)):
                 f[i] *= x[j]
             if not (i == 0):
                 aux = len(prob.objectives) - (i+1)
                 f[i] *= 1 - x[aux]
-
 
         for i in xrange(len(prob.objectives)):
             prob.objectives[i].value = f[i]  

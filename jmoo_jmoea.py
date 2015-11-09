@@ -124,7 +124,7 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         problem.referencePoint = statBox.referencePoint
         selectees, evals = algorithm.selector(problem, population, configurations, values_to_be_passed)
         numNewEvals = evals
-        old = time()
+
 
         # # # # # # # # # #
         # 4b) Adjustment  #
@@ -142,6 +142,7 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
 
 
         numNewEvals += evals
+
         # assert(len(population) == configurations["Universal"]["Population_Size"]), \
         #     "Length of the population should be equal to MU"
         # # # # # # # # # # #
@@ -161,8 +162,8 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # # # # # # # # # #
         # 4e) Evaluate Stopping Criteria  #
         # # # # # # # # # # # # # # # # # #
-        # stoppingCriteria = toStop(statBox)
-        stoppingCriteria = False
+        stoppingCriteria = toStop(statBox)
+        # stoppingCriteria = False
 
         # assert(len(statBox.box[-1].population) == configurations["Universal"]["Population_Size"]), \
         #     "Length in the statBox should be equal to MU"

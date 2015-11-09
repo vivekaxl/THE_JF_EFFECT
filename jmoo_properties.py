@@ -100,7 +100,7 @@ build_new_pop = False                                       # Whether or not to 
 
 Configurations = {
     "Universal": {
-        "Repeats" : 20,
+        "Repeats" : 5,
         "Population_Size" : 100,
         "No_of_Generations" : 20
     },

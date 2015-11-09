@@ -283,10 +283,7 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
     for p,prob in enumerate(problems):
                 f, axarr = plt.subplots(len(prob.objectives))#+1, len(prob.objectives))
 
-
-
-
-                for o,obj in enumerate(prob.objectives):
+                for o, obj in enumerate(prob.objectives):
                     maxEvals = 0
                     for a,alg in enumerate(algorithms):
                         maxEvals = max(maxEvals, max(data[p][a][0]))
@@ -298,7 +295,6 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
                             if eval in scores: scores[eval].append(score)
                             else: scores[eval] = [score]
 
-                        print alg.name
                         keylist = [1]
                         scorelist = [100]
                         smallslist = [100]
@@ -316,7 +312,7 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
 
                         axarr[o].plot(keylist, scorelist, linestyle='None', marker=alg.type, color=alg.color, markersize=8, markeredgecolor='none')
                         axarr[o].plot(keylist, smallslist, color=alg.color)
-                        axarr[o].set_ylim(0, 100)
+                        axarr[o].set_ylim(0, 130)
                         # axarr[o].set_autoscale_on(True)
                         axarr[o].set_xlim([-10, 10000])
                         axarr[o].set_xscale('log', nonposx='clip')
@@ -325,8 +321,8 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
                 if not os.path.isdir('charts/' + date_folder_prefix):
                     os.makedirs('charts/' + date_folder_prefix)
 
+                f.suptitle(prob.name)
                 fignum = len([name for name in os.listdir('charts/' + date_folder_prefix)]) + 1
-                print fignum
                 plt.savefig('charts/' + date_folder_prefix + '/figure' + str("%02d" % fignum) + "_" + prob.name + "_" + tag + '.png', dpi=100)
                 cla()
     #show()

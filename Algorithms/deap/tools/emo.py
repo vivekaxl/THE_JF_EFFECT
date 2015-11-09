@@ -151,7 +151,7 @@ def assignCrowdingDist(individuals):
         individuals[i].fitness.crowding_dist = dist
 
 
-def selTournamentDCD(individuals, k, configuration, values_to_be_passed):
+def selTournamentDCD(individuals, k):
     """Tournament selection based on dominance (D) between two individuals, if
     the two individuals do not interdominate the selection is made
     based on crowding distance (CD). The *individuals* sequence length has to
