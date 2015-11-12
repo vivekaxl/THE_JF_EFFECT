@@ -148,7 +148,7 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # # #
         # 4d) Collect Stats #
         # # # # # # # # # # #
-        statBox.update(population, gen, numNewEvals)
+        statBox.update(population+selectees, gen, numNewEvals)
 
         # from PerformanceMetrics.IGD.IGD_Calculation import IGD
         # resulting_pf = [[float(f) for f in individual.fitness.fitness] for individual in statBox.box[-1].population]

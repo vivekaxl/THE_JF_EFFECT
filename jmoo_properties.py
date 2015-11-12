@@ -44,10 +44,11 @@ from Problems.Feature_Models.feature_model import FeatureTreeModel
 
 # JMOO Experimental Definitions
 algorithms = [
-              jmoo_GALE0(),
+              # jmoo_GALE0(),
               jmoo_GALE(),
-              jmoo_NSGAII(),
-              jmoo_SPEA2(),
+              # jmoo_NSGAII(),
+              # jmoo_SPEA2(),
+              jmoo_GALE_no_mutation(),
               # jmoo_DE(),
               # jmoo_MOEAD_TCH(),
               # jmoo_NSGAIII(),
