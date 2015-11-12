@@ -90,6 +90,7 @@ elif reportOnly: reports = [jmoo_stats_report(tests)]
 elif noReports: reports = []
 else: reports = [jmoo_stats_report(tests), jmoo_decision_report(tests), jmoo_chart_report(tests)]
 
+print Configurations["Universal"], Configurations["GALE"]
 # Associate core with tests and reports
 core = JMOO(tests, reports, Configurations)
 

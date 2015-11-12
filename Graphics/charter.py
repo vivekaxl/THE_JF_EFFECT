@@ -312,7 +312,7 @@ def charter_reporter(problems, algorithms, Configurations, tag=""):
 
                         axarr[o].plot(keylist, scorelist, linestyle='None', marker=alg.type, color=alg.color, markersize=8, markeredgecolor='none')
                         axarr[o].plot(keylist, smallslist, color=alg.color)
-                        axarr[o].set_ylim(0, 130)
+                        axarr[o].set_ylim(0, 150)
                         # axarr[o].set_autoscale_on(True)
                         axarr[o].set_xlim([-10, 10000])
                         axarr[o].set_xscale('log', nonposx='clip')
