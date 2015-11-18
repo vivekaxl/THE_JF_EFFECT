@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157ddce6-3624-4fa3-b5ba-ca61d8192a16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/About.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/BinaryTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Moo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Num.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Objective.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Row.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Slurp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Sym.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/Table.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/The.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/lib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/Fastmap/spec.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/GALE_no_mutation/gale_components.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure01_DTLZ1_9_5_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure01_DTLZ1_9_5_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure02_DTLZ2_14_5_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure02_DTLZ2_14_5_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure03_DTLZ3_14_5_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure03_DTLZ3_14_5_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure04_DTLZ4_14_5_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure04_DTLZ4_14_5_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure05_DTLZ1_7_3_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure05_DTLZ1_7_3_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure06_DTLZ2_12_3_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure06_DTLZ2_12_3_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure07_DTLZ3_12_3_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure07_DTLZ3_12_3_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure08_DTLZ4_12_3_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure08_DTLZ4_12_3_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure09_DTLZ1_12_8_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure09_DTLZ1_12_8_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure10_DTLZ2_17_8_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure10_DTLZ2_17_8_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure11_DTLZ3_17_8_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure11_DTLZ3_17_8_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure12_DTLZ4_17_8_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure12_DTLZ4_17_8_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure13_DTLZ1_14_10_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure13_DTLZ1_14_10_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure14_DTLZ2_19_10_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure14_DTLZ2_19_10_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure15_DTLZ3_19_10_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure15_DTLZ3_19_10_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure16_DTLZ4_19_10_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure16_DTLZ4_19_10_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure17_DTLZ1_19_15_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure17_DTLZ1_19_15_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure18_DTLZ2_24_15_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure18_DTLZ2_24_15_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure19_DTLZ3_24_15_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure19_DTLZ3_24_15_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure20_DTLZ4_24_15_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure20_DTLZ4_24_15_.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Charts/11-12-2015/figure21_Web_Portal_.png" afterPath="$PROJECT_DIR$/Charts/11-12-2015_old/figure21_Web_Portal_.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/THE_JF_EFFECT.iml" afterPath="$PROJECT_DIR$/.idea/THE_JF_EFFECT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/summary_.datatable" afterPath="$PROJECT_DIR$/Data/summary_.datatable" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_algorithms.py" afterPath="$PROJECT_DIR$/jmoo_algorithms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_jmoea.py" afterPath="$PROJECT_DIR$/jmoo_jmoea.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmoo_properties.py" afterPath="$PROJECT_DIR$/jmoo_properties.py" />
     </list>
     <ignored path="THE_JF_EFFECT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jmoo_properties.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jmoo_properties.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.315625">
+            <state vertical-scroll-proportion="0.0">
               <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding>
                 <element signature="e#1078#1107#0" expanded="true" />
@@ -92,8 +51,21 @@
         <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="150" column="43" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+              <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Testing/whether_mutation_works/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="9.311798">
+              <caret line="224" column="53" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#3215#3417#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,9 +119,9 @@
         <option value="$PROJECT_DIR$/jmoo_interface.py" />
         <option value="$PROJECT_DIR$/Graphics/charter.py" />
         <option value="$PROJECT_DIR$/jmoo_algorithms.py" />
-        <option value="$PROJECT_DIR$/jmoo_jmoea.py" />
         <option value="$PROJECT_DIR$/Algorithms/GALE_no_mutation/gale_components.py" />
         <option value="$PROJECT_DIR$/jmoo_properties.py" />
+        <option value="$PROJECT_DIR$/jmoo_jmoea.py" />
       </list>
     </option>
   </component>
@@ -160,8 +132,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="980" />
+    <option name="width" value="1360" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,7 +189,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Graphics" />
+              <option name="myItemId" value="Testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whether_mutation_works" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,57 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Charts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GALE_no_mutation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="THE_JF_EFFECT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GALE" />
+              <option name="myItemId" value="Testing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,16 +372,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1400" height="980" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1360" height="698" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21972443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22628827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24689966" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3631841" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -594,6 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="199" column="33" selection-start-line="199" selection-start-column="33" selection-end-line="199" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,13 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1311474">
           <caret line="891" column="64" selection-start-line="891" selection-start-column="64" selection-end-line="891" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testing/whether_mutation_works/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,14 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="43" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_individual.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -683,10 +596,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jmoo_properties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.315625">
+        <state vertical-scroll-proportion="0.0">
           <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <element signature="e#1078#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jmoo_jmoea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testing/whether_mutation_works/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.311798">
+          <caret line="224" column="53" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#3215#3417#0" expanded="false" />
           </folding>
         </state>
       </provider>

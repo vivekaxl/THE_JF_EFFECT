@@ -148,6 +148,8 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # # #
         # 4d) Collect Stats #
         # # # # # # # # # # #
+        # statBox.update(population, gen, numNewEvals)
+        print "This code has been changed for gale no mutation please change"
         statBox.update(population+selectees, gen, numNewEvals)
 
         # from PerformanceMetrics.IGD.IGD_Calculation import IGD
