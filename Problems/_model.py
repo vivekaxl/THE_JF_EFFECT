@@ -59,15 +59,15 @@ class Pom:
 
 #XOMO support
 import os,sys,inspect
-cmd_subfolder = os.path.realpath(os.path.abspath(os.path.join(os.path.split(inspect.getfile( inspect.currentframe()))[0],"xomo")))
+cmd_subfolder = os.path.realpath(os.path.abspath(os.path.join(os.path.split(inspect.getfile( inspect.currentframe()))[0],"XOMO")))
 if cmd_subfolder not in sys.path:
     sys.path.insert(0, cmd_subfolder)
 
-from xomo import *
+from XOMO import *
 
 class Xomo:
     def __init__(self,
-                 out=os.environ["HOME"]+"/tmp/xomo",
+                 out=os.environ["HOME"]+"/tmp/XOMO",
                  data = "Data",
                  model=None):
         def theModel(model):
@@ -77,7 +77,7 @@ class Xomo:
             return model
         self.collection = {}
         self.model = theModel(model)
-        self.c = Cocomo("xomo/"+data+"/"+self.model)
+        self.c = Cocomo("XOMO/"+data+"/"+self.model)
         self.out = out + "/" + self.model + ".csv"
         self.data = data
         self.names = ["aa", "sced", "cplx", "site", "resl", "acap",

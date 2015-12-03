@@ -2,7 +2,7 @@ import os
 class Model:
     def __init__(self,name):
         self.name = name
-        if name == 'xomo':
+        if name == 'XOMO':
             self.model = Xomo(model = 'flight')
         elif name == 'xomoflight':
             self.model = Xomo(model='flight')
@@ -15,7 +15,7 @@ class Model:
         elif name == 'xomoall':
             self.model = Xomo(model='all')
         else:
-            sys.stderr.write("Enter valid model name _POM3 or xomoflight --> xomo[flight/ground/osp/osp2/all]\n")
+            sys.stderr.write("Enter valid model name _POM3 or xomoflight --> XOMO[flight/ground/osp/osp2/all]\n")
             sys.exit()
     
     def trials(self,N,verbose=True):
@@ -35,7 +35,7 @@ class Model:
 
 # class Xomo:
 #     def __init__(self,
-#                  out=os.environ["HOME"]+"/GIT/Courses/Misc/Seive/xomo/data",
+#                  out=os.environ["HOME"]+"/GIT/Courses/Misc/Seive/XOMO/data",
 #                  data = "data",
 #                  model=None):
 #         def theModel(model):
@@ -45,7 +45,7 @@ class Model:
 #             return model
 #         self.collection = {}
 #         self.model = theModel(model)
-#         self.c = Cocomo("xomo/"+data+"/"+self.model)
+#         self.c = Cocomo("XOMO/"+data+"/"+self.model)
 #         self.out = out + "/" + self.model + ".csv"
 #         self.data = data
 #         self.names = ["aa", "sced", "cplx", "site", "resl", "acap",

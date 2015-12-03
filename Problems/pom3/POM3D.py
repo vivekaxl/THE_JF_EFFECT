@@ -14,8 +14,11 @@ class POM3D(jmoo_problem):
         LOWS = [0.10, 0.82, 2, 0.60, 80, 1, 0, 0, 10]
         UPS = [0.20, 1.26, 8, 0.95, 100, 10, 2, 5, 20]
         prob.decisions = [jmoo_decision(names[i], LOWS[i], UPS[i]) for i in range(len(names))]
-        prob.objectives = [jmoo_objective("Cost", True, 0), jmoo_objective("Score", False, 0, 1),
-                           jmoo_objective("Completion", False, 0, 1), jmoo_objective("Idle", True, 0, 1)]
+        # prob.objectives = [jmoo_objective("Cost", True, 0), jmoo_objective("Score", False, 0, 1),
+        #                    jmoo_objective("Completion", False, 0, 1)]#, jmoo_objective("Idle", True, 0, 1)]
+        prob.objectives = [jmoo_objective("Cost", True, 0), jmoo_objective("Score", True, 0, 1),
+                           # jmoo_objective("Completion", False, 0, 1)]
+                          jmoo_objective("Idle", True, 0, 1)]
 
     def evaluate(prob, input=None):
         if input:

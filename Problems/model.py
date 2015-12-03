@@ -6,7 +6,7 @@ class Model:
         self.name = name
         if name == 'pom3':
             self.model = Pom()
-        elif name == 'xomo':
+        elif name == 'XOMO':
             self.model = Xomo(model = 'flight')
         elif name == 'xomoflight':
             self.model = Xomo(model='flight')
@@ -19,7 +19,7 @@ class Model:
         elif name == 'xomoall':
             self.model = Xomo(model='all')
         else:
-            sys.stderr.write("Enter valid model name POM3 or xomoflight --> xomo[flight/ground/osp/osp2/all]\n")
+            sys.stderr.write("Enter valid model name POM3 or xomoflight --> XOMO[flight/ground/osp/osp2/all]\n")
             sys.exit()
     
     def trials(self,N,verbose=False):

@@ -39,16 +39,24 @@ from Problems.POM3.POM3A import POM3A
 from Problems.POM3.POM3C import POM3C
 from Problems.POM3.POM3D import POM3D
 from Problems.Feature_Models.feature_model import FeatureTreeModel
+from Problems.XOMO.XOMO_flight import XOMO_flight
+from Problems.XOMO.XOMO_all import XOMO_all
+from Problems.XOMO.XOMO_ground import XOMO_ground
+from Problems.XOMO.XOMO_osp import XOMO_osp
+from Problems.XOMO.XOMO_osp2 import XOMO_osp2
 
 
 
 # JMOO Experimental Definitions
 algorithms = [
-              # jmoo_GALE0(),
+              jmoo_GALE2(),
               jmoo_GALE(),
+              # jmoo_DE(),
+              # jmoo_MOEAD_TCH(),
+              # jmoo_NSGAIII(),
+              # jmoo_GALE_no_mutation(),
               # jmoo_NSGAII(),
               # jmoo_SPEA2(),
-              jmoo_GALE_no_mutation(),
               # jmoo_DE(),
               # jmoo_MOEAD_TCH(),
               # jmoo_NSGAIII(),
@@ -63,23 +71,23 @@ problems =[
     dtlz2(14, 5),
     dtlz3(14, 5),
     dtlz4(14, 5),
-    dtlz1(7, 3),
-    dtlz2(12, 3),
-    dtlz3(12, 3),
-    dtlz4(12, 3),
-    dtlz1(12, 8),
-    dtlz2(17, 8),
-    dtlz3(17, 8),
-    dtlz4(17, 8),
-    dtlz1(14, 10), dtlz2(19, 10),
-    dtlz3(19, 10),
-    dtlz4(19, 10),
-    dtlz1(19, 15),
-    dtlz2(24, 15),
-    dtlz3(24, 15),
-    dtlz4(24, 15),
+    # dtlz1(7, 3),
+    # dtlz2(12, 3),
+    # dtlz3(12, 3),
+    # dtlz4(12, 3),
+    # dtlz1(12, 8),
+    # dtlz2(17, 8),
+    # dtlz3(17, 8),
+    # dtlz4(17, 8),
+    # dtlz1(14, 10), dtlz2(19, 10),
+    # dtlz3(19, 10),
+    # dtlz4(19, 10),
+    # dtlz1(19, 15),
+    # dtlz2(24, 15),
+    # dtlz3(24, 15),
+    # dtlz4(24, 15),
     # NRP(50, 5, 5, 20, 120),
-    FeatureTreeModel("Web_Portal")
+    # FeatureTreeModel("Web_Portal")
     #MONRP(50, 5, 5, 20, 120)
     # cpm_apache(),cpm_X264(), cpm_SQL_4553(), cpm_SQL_100(), cpm_LLVM(), cpm_BDBJ(), cpm_BDBC()
     # cpm_apache_training_reduction(treatment=None),
@@ -97,8 +105,8 @@ build_new_pop = False                                       # Whether or not to 
 
 Configurations = {
     "Universal": {
-        "Repeats" : 5,
-        "Population_Size" : 100,
+        "Repeats" : 3,
+        "Population_Size" : 92,
         "No_of_Generations" : 20
     },
     "NSGAIII": {

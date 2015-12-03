@@ -157,10 +157,11 @@ class JMOO:
         # Main control loop
         representatives = []                        # List of resulting final generations (stat boxe datatype)
         for problem in self.tests.problems:
+            print "# " * 30
             for algorithm in self.tests.algorithms:
 
                 
-                print "#<------- " + problem.name + " + " + algorithm.name + " ------->#"
+
                 
                 # Initialize Data file for recording summary information [for just this problem + algorithm]
                 backend = problem.name + "_" + algorithm.name + ".txt"
@@ -191,10 +192,10 @@ class JMOO:
                 fa.write("\n")
                 fa.close()
 
-                IGD_Values = []
+                print "+ " * 30
                 # Repeat Core
                 for repeat in range(self.configurations["Universal"]["Repeats"]):
-                    
+                    print "#<-------|" + problem.name + " + " + algorithm.name + " + " + str(repeat) + "|------->#"
                     # Run
                     start = time.time()
                     statBox = jmoo_evo(problem, algorithm, self.configurations)
@@ -261,7 +262,7 @@ class JMOO:
                     
                     
                     # Finish
-                    print " # Finished: Celebrate! # " + " Time taken: " + str("%10.5f" % (end-start)) + " seconds."
+                    print " # Finished: Celebrate! # " #+ " Time taken: " + str("%10.5f" % (end-start)) + " seconds."
 
 
 

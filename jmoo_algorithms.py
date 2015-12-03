@@ -26,8 +26,6 @@
 "Brief notes"
 "Algorithms for evolution"
 
-import os
-print os.getcwd()
 from Algorithms.DEAP import base
 from Algorithms.DEAP import creator
 from Algorithms.DEAP import tools
@@ -48,6 +46,7 @@ from Algorithms.STORM.storm_components import *
 from Algorithms.NSGAIII.nsgaiii_components import *
 from Algorithms.GALE0.gale_components import *
 from Algorithms.GALE_no_mutation.gale_components import *
+from Algorithms.GALE2.gale_components import *
 
 from jmoo_individual import *
 
@@ -116,20 +115,30 @@ class jmoo_GALE_no_mutation:
         self.color = color
         self.type = '*'
 
+class jmoo_GALE2:
+    def __init__(self, color="Black"):
+        self.name = "GALE2"
+        self.initializer = None
+        self.selector = gale2WHERE
+        self.adjustor = gale2Mutate
+        self.recombiner = gale2Regen
+        self.color = color
+        self.type = '*'
+
 
 class jmoo_DE:
-    def __init__(self, color="Black"):
+    def __init__(self, color="magenta"):
         self.name = "DE"
         self.initializer = None
         self.selector = de_selector
         self.adjustor = de_mutate
         self.recombiner = de_recombine  # stub
         self.color = color
-        self.type = 'o'
+        self.type = '*'
 
 
 class jmoo_MOEAD_TCH:
-    def __init__(self, color="Blue"):
+    def __init__(self, color="#6F3662"):
         self.name = "MOEAD"
         self.initializer = initialize_moead
         self.selector = moead_selector_tch
@@ -141,7 +150,7 @@ class jmoo_MOEAD_TCH:
 
 class jmoo_MOEAD_PBI:
     def __init__(self, color="Blue"):
-        self.name = "MOEAD"
+        self.name = "MOEAD_PBI"
         self.initializer = initialize_moead
         self.selector = moead_selector_pbi
         self.adjustor = moead_mutate
@@ -151,14 +160,14 @@ class jmoo_MOEAD_PBI:
 
 
 class jmoo_NSGAIII:
-    def __init__(self, color="blue"):
+    def __init__(self, color="green"):
         self.name = "NSGA3"
         self.initializer = None
         self.selector = nsgaiii_selector2
         self.adjustor = nsgaiii_regenerate2
         self.recombiner = nsgaiii_recombine2
         self.color = color
-        self.type = 'p'
+        self.type = '*'
 
 
 class jmoo_ANYWHERE:

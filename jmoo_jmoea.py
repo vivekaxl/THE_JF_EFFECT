@@ -149,8 +149,11 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # 4d) Collect Stats #
         # # # # # # # # # # #
         # statBox.update(population, gen, numNewEvals)
-        print "This code has been changed for gale no mutation please change"
-        statBox.update(population+selectees, gen, numNewEvals)
+        # print "This code has been changed for gale no mutation please change"
+        if algorithm.name == "GALE_no_mutation":
+            statBox.update(population+selectees, gen, numNewEvals)
+        else:
+            statBox.update(population, gen, numNewEvals)
 
         # from PerformanceMetrics.IGD.IGD_Calculation import IGD
         # resulting_pf = [[float(f) for f in individual.fitness.fitness] for individual in statBox.box[-1].population]
@@ -164,8 +167,8 @@ def jmoo_evo(problem, algorithm, configurations, toStop = bstop):
         # # # # # # # # # # # # # # # # # #
         # 4e) Evaluate Stopping Criteria  #
         # # # # # # # # # # # # # # # # # #
-        stoppingCriteria = toStop(statBox)
-        # stoppingCriteria = False
+        # stoppingCriteria = toStop(statBox)
+        stoppingCriteria = False
 
         # assert(len(statBox.box[-1].population) == configurations["Universal"]["Population_Size"]), \
         #     "Length in the statBox should be equal to MU"
